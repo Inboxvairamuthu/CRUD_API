@@ -1,0 +1,38 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "Rest-API CURD operation for contacts (users)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vairamuthu",
+  "license": "MIT",
+  "dependencies": {
+    "await-to-js": "^3.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "express": "^4.18.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "http-status": "^1.5.3",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.3",
+    "mongoose-unique-validator": "^3.1.0",
+    "mongoose-validator": "^2.1.0",
+    "nodemon": "^2.0.20",
+    "parse-error": "^0.2.0",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "path": "^0.12.7",
+    "socket.io": "^4.5.4",
+    "validator": "^13.7.0"
+  }
+}
